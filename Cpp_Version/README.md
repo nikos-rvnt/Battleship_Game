@@ -15,3 +15,11 @@ So initially, the following are printed if the user chooses to randomly place th
 
 ![](https://raw.githubusercontent.com/nikos-rvnt/Battleship_Game/master/Cpp_Version/battleship_1b.png)
 
+Then the program in a while loop asks the user to give the shot coordinates, while the PC shots randomly unless the previous shot was a hit (so the PC shots at the neighborhood of the previous hit shot). After both players have shot, the 2 refreshed boards are printed.
+
+![](https://raw.githubusercontent.com/nikos-rvnt/Battleship_Game/master/Cpp_Version/battleship_2.png)
+
+Finally, when one of the two players loose all the ships, the program ends and the diagnostics of both players are printed as shown below:
+
+![](https://raw.githubusercontent.com/nikos-rvnt/Battleship_Game/master/Cpp_Version/battleship_3.png)
+
