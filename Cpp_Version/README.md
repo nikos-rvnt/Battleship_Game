@@ -9,7 +9,8 @@ Here the game flow is described step by step through screenshots :
 
 So initially, the following are printed if the user chooses to randomly place the ships:
 
-# ![alt text] (https://github.com/nikos-rvnt/Battleship_Game/blob/master/Cpp_Version/battleship_1.png) 
+# ![alt text] (https://raw.githubusercontent.com/nikos-rvnt/Battleship_Game/master/Cpp_Version/battleship_1.png
+) 
 
 
 ...or the following if the user decides to place the ships one by one:
