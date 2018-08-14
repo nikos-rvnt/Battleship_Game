@@ -13,4 +13,5 @@ So initially, the following are printed if the user chooses to randomly place th
 
 ...or the following if the user decides to place the ships one by one:
 
+![](https://raw.githubusercontent.com/nikos-rvnt/Battleship_Game/master/Cpp_Version/battleship_1b.png)
 
