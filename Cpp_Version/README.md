@@ -1,6 +1,8 @@
 
 ## C++ Version of Battleship Game
 
+Implemented on Visual Studio 2017
+
 Here is described the implementation of the C++ version of Battleship game, with all the classes that are described on Battleship_Game/README.md file. 
 
 User player object is named as "U" and PC player object is named as "Digital_Mind". 
