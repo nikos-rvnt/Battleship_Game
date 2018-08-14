@@ -19,7 +19,7 @@ Drawboards() function is called after ships placement. Then, in a while loop of 
       - a shot is fired at pc's randomly chosen coordinates (if previously a hit shot was fired then PC is going to fire at the neighborhood cells),
       - the two boards are printed.
   
-  
+  More specific instructions on how to use, are included on Cpp_Version and Java_Version subfolders respectively. 
   
   
   
