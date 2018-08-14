@@ -8,6 +8,10 @@ User player object is named as "U" and PC player object is named as "Digital_Min
 
 Here, the game flow is described step by step through screenshots :
 
+As a welcome image the user sees the following :
+
+![](https://raw.githubusercontent.com/nikos-rvnt/Battleship_Game/master/Java_Version/battleship_0.png)
+
 So initially, the following are printed if the user chooses to randomly place the ships:
 
 ![](https://raw.githubusercontent.com/nikos-rvnt/Battleship_Game/master/Java_Version/battleship_1.png)
