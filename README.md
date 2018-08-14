@@ -3,7 +3,7 @@ C++ &amp; Java version of Battleship Game
 
 Battle Game implementation both on C++ and Java. The user plays against the PC as opponent. The game ends when either the user's ships or the PC's ships get sinked. 
 
-The programm includes the following classes:
+The program includes the following classes:
 
   - Tile Class: describes each cell of the board where the ships of each player are placed on. Includes as variable members the                   coordinates of the cell and the type, that is one of the sea, ship, hit or miss enumeration types. Also includes a draw() function where the symbol of the cell type is printed.
   
@@ -13,8 +13,11 @@ The programm includes the following classes:
   
   - Player Class: two objects are created, one for each player. Includes diagnostic variables such as hit shots, missed shots etc. The function of this class are placeAllShips() function - calls player boards placeAllShip(), placeShip() function - calls placeShip() of Ship Class and places the ship, fire() function - fires a shot on the opponent's board and brings up to date diagnostics counters, getStats() function which returns the diagnostics.
   
-  
-  
+  - Main (main() in Battleship.cpp file and Battleship.java class for C++ and Java respectively): the two players are created and the PCs ships are placed randomly. The program asks the user if he wants to place the ships randomly or manually one by one.  
+Drawboards() function is called after ships placement. Then, in a while loop of allsShipsSunk() function condition, that is while at least one ship of both players is "alive", the following are implemented: 
+      - a shot is fired at user chosen coordinates,
+      - a shot is fired at pc's randomly chosen coordinates (if previously a hit shot was fired then PC is going to fire at the neighborhood cells),
+      - the two boards are printed.
   
   
   
