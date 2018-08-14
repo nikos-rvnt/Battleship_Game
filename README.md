@@ -8,13 +8,13 @@ The program includes the following classes:
   - Tile Class: describes each cell of the board where the ships of each player are placed on. Includes as variable members the                   coordinates of the cell and the type, that is one of the sea, ship, hit or miss enumeration types. Also includes a draw() function where the symbol of the cell type is printed.
   
   - Ship Class: is an abstract class that describes each ship type. Includes as variable members the starting cell on the board, the orientation (vertically or horizontally) and the length of the ship. Ship class is the base class from whom inherit stuff the subclasses:
-      - Carrier (5 cells length), 
-      - Battleship (4 cells length), 
-      - Cruiser (3 cells length), 
-      - Submarine (3 cells length) and 
-      - Destroyer (2 cells length). 
+      - Carrier Subclass(5 cells length ship), 
+      - Battleship Subclass(4 cells length ship), 
+      - Cruiser Subclass(3 cells length ship), 
+      - Submarine Subclass(3 cells length ship) and 
+      - Destroyer Subclass(2 cells length ship). 
       
-   Also, placeShip() function is included but implemented on each subclass (polymorphism). This function places each ship on the board from the respective starting cell, considering the length of the ship) and the orientation of placement of the ship. 
+      Also, placeShip() function is included but implemented on each subclass (polymorphism). This function places each ship on the board from the respective starting cell, considering the length of the ship) and the orientation of placement of the ship. 
   
   - Board Class: describes a 10x10 2D matrix of (tile class) cells. Includes the functions drawboards() - prints the 2 boards every time a ship is placed or every time a shot is thrown (obviously the PCs board prints only hit/miss cells and not where the ships are placed), getAdjacentTiles() - returns the neighborhood of a cell, placeAllShips() - creates and places all the ships in a random manner considering the on-board placement limitations, allShipsSunk() - checks if all ships of a player have been sunk, that is there is no type ship cell on the board (if true is returned the game ends). 
   
